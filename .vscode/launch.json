@@ -1,0 +1,14 @@
+{
+    "configurations": [
+    {
+        "name": "RTS",
+        "program": "${workspaceFolder}/RTS.ts",
+        "request": "launch",
+        "preLaunchTask": "tsc: build - tsconfig.json",
+        "skipFiles": [
+            "<node_internals>/**"
+        ],
+        "type": "pwa-node"
+    }
+    ]
+}
